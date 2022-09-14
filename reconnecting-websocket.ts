@@ -482,7 +482,7 @@ export default class ReconnectingWebSocket {
         this._listeners.close.forEach(listener => this._callEventListener(event, listener));
     };
 
-    private _removeListeners() {
+    public _removeListeners() {
         if (!this._ws) {
             return;
         }

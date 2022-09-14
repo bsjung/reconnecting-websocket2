@@ -1,7 +1,7 @@
 {
-    "name": "reconnecting-websocket",
-    "version": "4.4.0",
-    "description": "Reconnecting WebSocket",
+    "name": "reconnecting-websocket2",
+    "version": "5.0.0",
+    "description": "Reconnecting WebSocket2",
     "main": "./dist/reconnecting-websocket-cjs.js",
     "module": "./dist/reconnecting-websocket-mjs.js",
     "types": "./dist/reconnecting-websocket.d.ts",
@@ -25,7 +25,7 @@
         "forever",
         "automatic"
     ],
-    "author": "Pedro Ladaria <pedro.ladaria@gmail.com>",
+    "author": "Benjamin Jung <bsjung@gmail.com>, Pedro Ladaria <pedro.ladaria@gmail.com>",
     "files": [
         "dist/*"
     ],
