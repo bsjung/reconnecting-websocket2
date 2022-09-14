@@ -2,6 +2,8 @@
  * Reconnecting WebSocket
  * by Pedro Ladaria <pedro.ladaria@gmail.com>
  * https://github.com/pladaria/reconnecting-websocket
+ * Modified by Benjamin Jung <bsjung@gmail.com>
+ * https://github.com/bsjung/reconnecting-websocket2
  * License MIT
  */
 
