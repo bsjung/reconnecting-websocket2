@@ -416,7 +416,8 @@ var ReconnectingWebSocket = (function () {
         ReconnectingWebSocket.prototype.addEventListener = function (type, listener) {
             if (this._listeners[type]) {
                 // @ts-ignore
-                this._listeners[type].push(listener);
+                // this._listeners[type].pop();
+                this._listeners[type] = [listener];
             }
         };
         ReconnectingWebSocket.prototype.dispatchEvent = function (event) {

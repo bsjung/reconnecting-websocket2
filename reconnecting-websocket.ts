@@ -273,7 +273,8 @@ export default class ReconnectingWebSocket {
     ): void {
         if (this._listeners[type]) {
             // @ts-ignore
-            this._listeners[type].push(listener);
+            // this._listeners[type].pop();
+            this._listeners[type] = [listener];
         }
     }
 
